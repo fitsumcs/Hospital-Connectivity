@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yohannes.appbutton">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HotelList"
+            android:label="hotel"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".hospitals.HospitalList"
+            android:parentActivityName=".HotelList" />
+        <activity
+            android:name=".CarRentalList"
+            android:label="Car Rentals" />
+        <activity android:name=".SchoolList"
+            android:label="Schools"/>
+        <activity
+            android:name=".hotels.AbyssiniaHotel"
+            android:label="Abyssinia Hotel" />
+        <activity
+            android:name=".hotels.JupiterHotel"
+            android:label="Jupiter Hotel" />
+        <activity
+            android:name=".NewsFeeds"
+            android:label="News Feeds" />
+        <activity
+            android:name=".hotels.HiltonHotel"
+            android:label="Hilton Hotel" />
+        <activity
+            android:name=".hotels.AddisRegencyHotel"
+            android:label="Addis Regency Hotel" />
+        <activity
+            android:name=".hotels.AgPalaceHotel"
+            android:label="Ag Palace Hotel" />
+        <activity
+            android:name=".hotels.GetfamHotel"
+            android:label="Getfam Hotel" />
+        <activity
+            android:name=".hotels.NazraHotel"
+            android:label="Nazra Hotel" />
+        <activity
+            android:name=".hotels.RadissonBluHotel"
+            android:label="Radisson Blu Hotel" />
+        <activity
+            android:name=".hotels.SheratonAddisHotel"
+            android:label="Sheraton Addis Hotel" />
+        <activity
+            android:name=".hotels.TheResidenceHotel"
+            android:label="The Residence Hotel" />
+        <activity android:name=".RegistrationActivity"
+            android:label="Register"/>
+        <activity android:name=".embassys.EmbassyMainActivity"
+            android:label="Embassys"/>
+        <activity android:name=".Hospitals"
+            android:label="Hospitals"/>
+        <activity android:name=".hospitals.StGabrielHospital"
+            android:label="St.Gabriel Hospital"/>
+        <activity android:name=".hospitals.KoreanHospital"
+            android:label="Korean Hospital"/>
+        <activity android:name=".hospitals.HayatHospital"
+
+            android:label="Hayat Hospital"/>
+        <activity android:name=".hospitals.KadiscoGeneralHospital"
+            android:label="Kadisco General Hospital"/>
+        <activity android:name=".hospitals.SelassieClinic"
+            android:label="Selassie International Clinic"/>
+        <activity android:name=".hospitals.SanteMedicalCenter"
+            android:label="Sante Medical Center"/>
+        <activity android:name=".hospitals.BethalHospital"
+            android:label="Bethal Hospital"/>
+        <activity android:name=".hospitals.TeklehaimanotGeneralHospital"
+            android:label="Teklehaimanot General Hospital"/>
+        <activity android:name=".hospitals.WashingtonMedicalCentre"
+            android:label="Washington Medical Center"/>
+        <activity android:name=".hospitals.TAPHEMedicaService"
+            android:label="TAPHE Medical Service"/>
+        <activity android:name=".hospitals.EthiopianRedCrossSociety"
+            android:label="Ethiopia Red Cross Society"/>
+        <activity android:name=".hospitals.DrEmbetSpecialDentalClinic"
+            android:label="Dr. Embet Special Dental Clinic"/>
+        <activity android:name=".hospitals.RankSpecializedHigherClinic"
+            android:label="RANK Specialized Higher Clinic"/>
+        <activity android:name=".hospitals.WaggaSpecialEveClinic"
+            android:label="Wagga Special Clinic"/>
+        <activity android:name=".hospitals.AsterPrimaryHospital"
+            android:label="Aster Primary Hospital"/>
+        <activity android:name=".hospitals.KibruPrimaryHospital"
+            android:label="Kibru Primary Hospital"/>
+        <activity android:name=".hospitals.DeltGeneralHospital"
+            android:label="Delt General Hospital"/>
+        <activity android:name=".hospitals.FelegehiwotReferralHospital"
+            android:label="Felegehiwot Referral Hospital"/>
+        <activity android:name=".hospitals.HosClinicList"
+            android:label="Clinic In Addis"/>
+        <activity android:name=".hospitals.HosOutAddis"
+            android:label="Hospitals Out of Addis"/>
+        <activity android:name=".hospitals.HosEmergency"
+            android:label="Emergency Hospitals"/>
+        <activity android:name=".school.AdinetInternationalSchool"
+            android:label="School"/>
+        <activity android:name=".school.GreekSchool"
+            android:label="School"/>
+        <activity android:name=".school.BritishSchool"
+            android:label="School"/>
+        <activity android:name=".school.InternationalCommunitySchool"
+            android:label="School"/>
+        <activity android:name=".school.OnePlanetInternationalSchool"
+            android:label="School"/>
+        <activity android:name=".school.RiceInternationalSchool"
+            android:label="School"/>
+        <activity android:name=".school.SanfordInternationalSchool"
+            android:label="School"/>
+        <activity android:name=".school.TurkishInternationalSchool"
+            android:label="School"/>
+        <activity android:name=".school.BinghamAcadamy"
+            android:label="School"/>
+        <activity android:name=".carRental.AbcCarRental"
+            android:label="Car Rental"/>
+        <activity android:name=".carRental.AdikaCarRental"
+            android:label="Car Rental"/>
+        <activity android:name=".carRental.AmazingCarRental"
+            android:label="Car Rental"/>
+        <activity android:name=".carRental.HomenetCarRental"
+            android:label="Car Rental"/>
+        <activity android:name=".carRental.RainbowCarRental"
+            android:label="Car Rental"/>
+        <activity android:name=".carRental.SenaitCarRental"
+            android:label="Car Rental"/>
+        <activity android:name=".carRental.ShangerilaTourCars"
+            android:label="Car Rental"/>
+        <activity android:name=".carRental.ZelalemCarRental"
+            android:label="Car Rental"/>
+        <activity android:name=".carRental.GreenLand"
+            android:label="Car Rental"></activity>
+    </application>
+
+</manifest>
